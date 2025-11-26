@@ -1,0 +1,25 @@
+## @file  Visionfive2.dec
+# This Package provides Starfive Visionfive2 modules and libraries.
+#
+# Copyright (c) 2019, Hewlett Packard Enterprise Development LP. All rights reserved.<BR>
+#
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  DEC_SPECIFICATION              = 0x0001001b
+  PACKAGE_NAME                   = Visionfive2
+  PACKAGE_UNI_FILE               = Visionfive2.uni
+  PACKAGE_GUID                   = 4cf54462-640d-473b-9070-95f175520971
+  PACKAGE_VERSION                = 1.0
+
+[Includes]
+
+[LibraryClasses]
+
+[Guids]
+  gUefiRiscVPlatformVisionfive2TokenSpaceGuid  = {0x3FA8C512, 0x1B94, 0x4E7A, { 0x89, 0x3F, 0x6A, 0xD2, 0x4C, 0x1E, 0x9B, 0x8A }}
+
+[UserExtensions.TianoCore."ExtraFiles"]
+  Visionfive2PkgExtra.uni
